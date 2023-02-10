@@ -11,8 +11,9 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UpdateModule } from './update/update.module';
 import { PrismaModule } from './prisma/prisma.module';
+import { SwaggerModule } from './swagger/swagger.module';
 @Module({
-  imports: [UpdateModule, PrismaModule],
+  imports: [UpdateModule, PrismaModule, SwaggerModule],
   controllers: [AppController],
   providers: [AppService],
 })

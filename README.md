@@ -1,3 +1,11 @@
+<!--
+ * @Author: 王娟娟 wangjuanjuan@xiaomi.com
+ * @Date: 2023-01-04 15:03:06
+ * @LastEditors: 王娟娟 wangjuanjuan@xiaomi.com
+ * @LastEditTime: 2023-02-10 15:31:30
+ * @FilePath: /nest-l1/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -71,3 +79,17 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## description
+
+src 下主要文件夹说明：
+
+- swagger 为 swagger 生成的模版文件
+- prisma 为 prisma 将 mysql 与项目连接起来
+- update 为 /update 路由下的操作
+
+## 主要技术栈
+
+nestjs + prisma + mysql + swagger  
+ swagger 主要是生成 RestAPI
+prisma 是一个 ORM(object relation mapp)？，用来快速对数据库进行 CURD
